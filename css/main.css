@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/*--------------------------HEADER---------------------------------*/
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+/*Header-top*/
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    align-items: center;
+}
+
+
+
+.header-text__school {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+
+}
+
+
+.header-text__name {
+    font-family: 'Pirata One', cursive;
+    font-size: 80px;
+
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 20vw;
+    margin-top: 1vh;
+}
+
+.h_icon:hover {
+    filter: saturate(10)
+}
+
+.header-address {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    margin-top: 2vh;
+    margin-top: 8vh;
+}
+
+.header-phones {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pirata One', cursive;
+    color: #602136;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    margin-right: 3vw;
+    margin-top: 2vh;
+
+}
+
+/*Header-bottom*/
+
+
+
+/*Naviagation*/
+/*
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    background-color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #602136;
+}
+
+.header__button {
+    width: 220px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header_link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    margin-top: 1vh;
+}
+
+.a_about_us {
+    background-image: url('../img/chess-svg/black_1.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.a_gallery {
+    background-image: url('../img/chess-svg/black_5.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.a_sponsors {
+    background-image: url('../img/chess-svg/black_3.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.a_tournaments {
+    background-image: url('../img/chess-svg/black_4.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.a_lessons {
+    background-image: url('../img/chess-svg/black_2.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+*/
+.header-texts {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-text__1 {
+    width: 600px;
+    height: 600px;
+    background-color: #602136;
+    margin-left: -2vw;
+    padding: 10vh;
+    border-radius: 50%;
+    font-size: 23px;
+    word-spacing: 0.5rem;
+
+}
+
+.header-text__2 {
+    max-width: 25vw;
+    max-height: 50vh;
+    background-color: #79243D;
+    padding: 5vh 5vw;
+    margin-left: 37vw;
+    margin-top: 25vh;
+    font-size: 26px;
+    box-shadow: 21px -22px 15px 10px rgba(94, 34, 49, 1);
+
+}
