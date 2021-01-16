@@ -20,7 +20,6 @@ body {
     margin: auto;
 }
 
-.logo-nav {}
 
 .nav-menu {
     display: flex;
@@ -97,28 +96,150 @@ body {
     padding-bottom: 10vh;
 }
 
-.about h1 {
-    font-size: 40px;
-    text-align: center;
-    margin-top: 3vh;
-}
-
 .about_wrapper {
-    margin-top: 5vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .about_img {
-    margin-top: 10vh;
+    margin-top: 30vh;
 }
 
 .about_text {
     flex-basis: 50%;
+    margin-top: 15vh;
     border: 10px double white;
     padding: 5vh 5vw;
     font-size: 18px;
 }
 
 /*----------------------------------SCHOOL-------------------------------------------*/
+
+.school h1 {
+    text-align: center;
+    margin-top: 3vh;
+    border-bottom: 4px double black;
+    border-top: 4px double black;
+    padding: 1vh;
+
+}
+
+
+.school-inf {
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.school-inf_inner {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    gap: 3vh;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.75);
+
+}
+
+.school_inf__img {
+    min-width: 100%;
+    filter: sepia();
+}
+
+.school_inf__text {
+    padding: 1vh 1vw;
+    font-size: 15px;
+    line-height: 2em;
+
+}
+
+/*----------------------------------TOURNAMENTS-------------------------------------------*/
+.tournaments {
+    margin-top: 5vh;
+    background-color: #212121;
+    color: white
+}
+
+.tournaments h1 {
+    text-align: center;
+    display: block;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    border-bottom: 4px double white;
+    border-top: 4px double white;
+}
+
+.tournaments-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+.tournaments-inf {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid white;
+}
+
+.tournametns-img {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.tournaments-text {
+    font-size: 20px;
+    padding: 3vh 3vw;
+}
+
+.t_inf-0 {
+    width: 80%;
+}
+
+.t_inf-1 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+}
+
+.t_inf-2 {
+    width: 80%;
+    margin-right: 5vw;
+}
+
+.t_inf-3 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+
+}
+
+.t_inf-4 {
+    width: 80%;
+    margin-right: 5vw;
+
+}
+
+.t_inf-5 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+
+}
+
+.t_inf-6 {
+    width: 80%;
+    margin-right: 5vw;
+
+}
+
+.t_inf-7 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+
+}
