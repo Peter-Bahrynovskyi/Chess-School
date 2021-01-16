@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*---------------------NAVIGATION------------------------*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: auto;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    margin: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.nav-menu a:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.nav-icons {
+
+    display: flex;
+    align-items: center;
+}
+
+
+/*--------------------------HEADER---------------------------------*/
+
+.header {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+
+/*---header-left---*/
+
+.header-left {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px outset lightgrey;
+}
+
+.header-right {
+    flex-basis: 50%;
+    background-image: url('../img/header-photos/photo802.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-text__school {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-text__name {
+    font-family: 'Ultra', serif;
+    font-size: 50px;
+    letter-spacing: .3em;
+}
+
+
+/*----------------------------------ABOUT-------------------------------------------*/
+.about {
+    width: 100vw;
+    background-color: #212121;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 10vh;
+}
+
+.about_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about_img {
+    margin-top: 30vh;
+}
+
+.about_text {
+    flex-basis: 50%;
+    margin-top: 15vh;
+    border: 10px double white;
+    padding: 5vh 5vw;
+    font-size: 18px;
+}
+
+/*----------------------------------SCHOOL-------------------------------------------*/
+
+.school h1 {
+    text-align: center;
+    margin-top: 3vh;
+    border-bottom: 4px double black;
+    border-top: 4px double black;
+    padding: 1vh;
+
+}
+
+
+.school-inf {
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.school-inf_inner {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    gap: 3vh;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.75);
+
+}
+
+.school_inf__img {
+    min-width: 100%;
+    filter: sepia();
+}
+
+.school_inf__text {
+    padding: 1vh 1vw;
+    font-size: 15px;
+    line-height: 2em;
+
+}
+
+/*----------------------------------TOURNAMENTS-------------------------------------------*/
+.tournaments {
+    margin-top: 5vh;
+    background-color: #212121;
+    color: white
+}
+
+.tournaments h1 {
+    text-align: center;
+    display: block;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    border-bottom: 4px double white;
+    border-top: 4px double white;
+}
+
+.tournaments-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+.tournaments-inf {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid white;
+}
+
+.tournametns-img {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.tournaments-text {
+    font-size: 20px;
+    padding: 3vh 3vw;
+}
+
+.t_inf-0 {
+    width: 80%;
+}
+
+.t_inf-1 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+}
+
+.t_inf-2 {
+    width: 80%;
+    margin-right: 5vw;
+}
+
+.t_inf-3 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+
+}
+
+.t_inf-4 {
+    width: 80%;
+    margin-right: 5vw;
+
+}
+
+.t_inf-5 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+
+}
+
+.t_inf-6 {
+    width: 80%;
+    margin-right: 5vw;
+
+}
+
+.t_inf-7 {
+    width: 80%;
+    margin-left: 5vw;
+    flex-direction: row-reverse;
+
+}
