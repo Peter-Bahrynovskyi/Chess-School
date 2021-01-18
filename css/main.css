@@ -27,7 +27,8 @@ body {
 }
 
 .nav-menu li {
-    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
 }
 
 .nav-menu a {
@@ -84,6 +85,7 @@ body {
     font-family: 'Ultra', serif;
     font-size: 50px;
     letter-spacing: .3em;
+
 }
 
 
@@ -112,6 +114,21 @@ body {
     border: 10px double white;
     padding: 5vh 5vw;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-inf {
+    display: flex;
+    border-bottom: 1px solid white;
+    align-items: center;
+
+}
+
+
+.about-text {
+    margin-left: 2vw;
+    padding: 1.5vw 0;
 }
 
 /*----------------------------------SCHOOL-------------------------------------------*/
@@ -145,8 +162,16 @@ body {
 }
 
 .school_inf__img {
-    min-width: 100%;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     filter: sepia();
+}
+
+.school_inf__img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .school_inf__text {
@@ -160,7 +185,7 @@ body {
 .tournaments {
     margin-top: 5vh;
     background-color: #212121;
-    color: white
+    color: white;
 }
 
 .tournaments h1 {
@@ -241,5 +266,8 @@ body {
     width: 80%;
     margin-left: 5vw;
     flex-direction: row-reverse;
-
+    border-bottom: none;
 }
+
+
+/*-------------------------------------GALLERY-------------------------------------------*/
