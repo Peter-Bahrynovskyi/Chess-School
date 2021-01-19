@@ -184,7 +184,7 @@ body {
 /*----------------------------------TOURNAMENTS-------------------------------------------*/
 .tournaments {
     margin-top: 5vh;
-    background-color: #212121;
+    background-color: #1D1D1B;
     color: white;
 }
 
@@ -201,73 +201,63 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5vh;
-    margin-top: 2vh;
+    margin-top: 10vh;
     align-items: center;
 }
 
 .tournaments-inf {
     display: flex;
     flex-direction: row;
-    border: 3px solid white;
+    border: 4px solid white;
+    padding: 2vw 2vh;
 }
 
-.tournametns-img {
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-}
+
+.tournametns-img {}
+
 
 .tournaments-text {
     font-size: 20px;
-    padding: 3vh 3vw;
-}
+    padding: 1vh 1vw;
 
-.t_inf-0 {
-    width: 80%;
 }
 
 .t_inf-1 {
     width: 80%;
-    margin-left: 5vw;
+    margin-right: 21vw;
     flex-direction: row-reverse;
+    margin-top: 5vh;
 }
 
 .t_inf-2 {
     width: 80%;
-    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-left: 21vw;
 }
 
 .t_inf-3 {
     width: 80%;
-    margin-left: 5vw;
     flex-direction: row-reverse;
+    margin-top: 1vh;
+    margin-right: 23vw;
 
 }
 
 .t_inf-4 {
     width: 80%;
-    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-left: 23vw;
 
 }
 
 .t_inf-5 {
     width: 80%;
-    margin-left: 5vw;
     flex-direction: row-reverse;
+    margin-top: 1vh;
+    margin-right: 23vw;
 
 }
 
-.t_inf-6 {
-    width: 80%;
-    margin-right: 5vw;
-
-}
-
-.t_inf-7 {
-    width: 80%;
-    margin-left: 5vw;
-    flex-direction: row-reverse;
-    border-bottom: none;
-}
 
 
 /*-------------------------------------GALLERY-------------------------------------------*/
