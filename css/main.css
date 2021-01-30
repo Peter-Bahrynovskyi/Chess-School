@@ -81,6 +81,7 @@ body {
     font-family: 'IBM Plex Serif', serif;
     font-size: 40px;
     font-weight: bold;
+
 }
 
 .header-text__name {
@@ -126,12 +127,14 @@ body {
     border-bottom: 1px solid white;
     align-items: center;
 
+
 }
 
 
 .about-text {
     margin-left: 2vw;
     padding: 1.5vw 0;
+
 }
 
 /*----------------------------------SCHOOL-------------------------------------------*/
@@ -179,10 +182,16 @@ body {
 
 .school_inf__num {
     color: #212121;
-    font-size: 30px;
+    font-size: 34px;
     background-color: white;
-    padding: 1vw 2vh;
+    padding: 1vw 2.5vh;
     margin-right: 1vw;
+    border-radius: 50%;
+    border: 5px outset white;
+}
+
+.school_inf__num_m {
+    border: 5px inset white;
 }
 
 .school-img {
@@ -203,7 +212,7 @@ body {
 #online {
     padding-top: 5vh;
     padding-bottom: 2vh;
-    background-image: url('../img/online-bg2.png');
+    background-image: url('../img/online-bg3.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 100vw;
@@ -302,7 +311,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 10vh;
+    margin-top: 5vh;
     font-size: 24px;
 }
 
@@ -310,13 +319,26 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 5vh;
-    font-size: 20px;
+    margin-top: 3vh;
+    font-size: 30px;
 }
 
-.contacts-phones>* {
-    margin-top: 2vh;
+
+
+.contacts-email {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
 }
+
+.contacts-icons {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 .contacts-map {
     margin-right: 2vw;
