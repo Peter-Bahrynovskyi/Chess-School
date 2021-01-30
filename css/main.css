@@ -55,7 +55,6 @@ body {
     width: 100vw;
     height: 70vh;
     display: flex;
-
 }
 
 /*---header-left---*/
@@ -68,6 +67,8 @@ body {
     justify-content: center;
     border-top: 1px outset lightgrey;
 }
+
+.header-text {}
 
 .header-right {
     flex-basis: 50%;
@@ -200,8 +201,13 @@ body {
 /*-------------------------------------ONLINE-------------------------------------------*/
 
 #online {
-    margin-top: 5vh;
+    padding-top: 5vh;
     padding-bottom: 2vh;
+    background-image: url('../img/online-bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    height: auto;
 }
 
 #online h1 {
@@ -211,25 +217,69 @@ body {
     border-top: 4px double black;
 }
 
-.online-img {
-    margin-top: 5vh;
-}
 
 .online-wrapper {
-    margin-top: 2vh;
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    width: 55vw;
 }
 
 .online-inf {
-    text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
-    border: 4px double black;
-    padding: 5vw 15vh;
-    width: 33vw;
+    padding: 2vw 10vh;
+    padding-bottom: 35vh;
+
+}
+
+.onl-t-1 {
+    margin-top: 3vh;
+}
+
+.onl-t-2 {
+    margin-top: 3vh;
+}
+
+/*-------------------------------------ADDITIONAL-------------------------------------------*/
+
+
+.additional-inf {
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.add-cornhol,
+.add-tours {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    align-self: center;
+    gap: 5vw;
+}
+
+.add-tours {
+    flex-direction: row-reverse;
+}
+
+.add-img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.add-text {
+    align-self: center;
+    font-size: 20px;
+
+}
+
+.add-tours {
+    margin-top: 5vh;
 }
 
 /*-------------------------------------CONTACTS-------------------------------------------*/
@@ -237,7 +287,7 @@ body {
 #contacts {
     display: flex;
     justify-content: space-between;
-    background-color: #1D1D1B;
+    background-color: #212121;
     color: white;
     padding-bottom: 1vw;
     padding-top: 1vw;
