@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
+
 }
 
 body {
@@ -68,13 +69,33 @@ body {
     border-top: 1px outset lightgrey;
 }
 
-.header-text {}
-
 .header-right {
     flex-basis: 50%;
-    background-image: url('../img/header-photos/photo802.jpg');
+    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
+    animation-name: slide;
+    animation-duration: 60s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('../img/gallery-photos/gallery-1.jpg');
+    }
+
+    33% {
+        background-image: url('../img/gallery-photos/gallery-2.jpg');
+    }
+
+    66% {
+        background-image: url('../img/gallery-photos/gallery-3.jpg');
+    }
+
+    100% {
+        background-image: url('../img/gallery-photos/gallery-4.jpg');
+    }
 }
 
 .header-text__school {
@@ -110,6 +131,22 @@ body {
 
 .about_img {
     margin-top: 30vh;
+    animation-name: about-img;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes about-img {
+    0% {
+        padding-right: 130vh;
+    }
+
+
+
+    100% {
+        padding-right: 0vh;
+    }
 }
 
 .about_text {
@@ -126,10 +163,7 @@ body {
     display: flex;
     border-bottom: 1px solid white;
     align-items: center;
-
-
 }
-
 
 .about-text {
     margin-left: 2vw;
@@ -210,20 +244,9 @@ body {
 /*-------------------------------------ONLINE-------------------------------------------*/
 
 #online {
-    padding-top: 5vh;
-    padding-bottom: 2vh;
     background-image: url('../img/online-bg3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100vw;
-    height: auto;
-}
-
-#online h1 {
-    width: 100vw;
-    text-align: center;
-    border-bottom: 4px double black;
-    border-top: 4px double black;
 }
 
 
@@ -231,20 +254,22 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: 55vw;
+
 }
 
 .online-inf {
-    font-size: 24px;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    font-size: 27px;
     display: flex;
     flex-direction: column;
-    padding: 2vw 10vh;
-    padding-bottom: 35vh;
-
+    padding-bottom: 30vh;
+    width: 50vw;
 }
 
 .onl-t-1 {
     margin-top: 3vh;
+
 }
 
 .onl-t-2 {
@@ -260,36 +285,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url('../img/additional/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.add-cornhol,
-.add-tours {
+.add-cornhol {
+    border: 8px double white;
+    padding: 3vw 3vh;
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 80vw;
     align-self: center;
-    gap: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
 }
 
-.add-tours {
-    flex-direction: row-reverse;
-}
-
-.add-img {
-    width: 100%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-.add-text {
-    align-self: center;
-    font-size: 20px;
-
-}
-
-.add-tours {
-    margin-top: 5vh;
-}
 
 /*-------------------------------------CONTACTS-------------------------------------------*/
 
