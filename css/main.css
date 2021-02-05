@@ -51,6 +51,16 @@ body {
     align-items: center;
 }
 
+.lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.lang button {
+    background-color: transparent;
+}
 
 /*--------------------------HEADER---------------------------------*/
 
@@ -76,7 +86,7 @@ body {
     border-top: 1px outset lightgrey;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../img/header-photos/photo802.jpg');
+    background-image: url('../img/header/header-1.webp');
 
 }
 
@@ -86,9 +96,8 @@ body {
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../img/header-photos/gallery\ \(28\).jpg');
+    background-image: url('../img/header/header-2.webp');
     filter: grayscale(100%);
-
 }
 
 .header-3 {
@@ -96,7 +105,8 @@ body {
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../img/header-photos/photo781.jpg');
+    background-image: url('../img/header/header-3.webp');
+
 }
 
 .header-4 {
@@ -104,7 +114,8 @@ body {
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../img/header-photos/gallery\ \(2\).jpg');
+    background-image: url('../img/header/header-4.webp');
+    background-position: 30% 0%;
     filter: grayscale(100%);
 }
 
@@ -185,7 +196,42 @@ body {
 
 }
 
+/*-------------------------------------ONLINE-------------------------------------------*/
+
+#online {
+
+    background-image: url('../img/online/online-bg3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.online-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.online-inf {
+    margin-top: 15vh;
+    margin-left: 5vw;
+    font-size: 27px;
+    display: block;
+    margin-bottom: 30vh;
+    width: 50vw;
+}
+
+.onl-t-1 {
+    margin-top: 3vh;
+
+}
+
+.onl-t-2 {
+    margin-top: 3vh;
+}
+
 /*----------------------------------SCHOOL-------------------------------------------*/
+#school {
+    width: 100vw;
+}
 
 .school-wrapper {
     display: flex;
@@ -240,35 +286,6 @@ body {
 .school-inf-7 {
     margin-left: 50vw;
     margin-bottom: 5vh;
-}
-
-/*-------------------------------------ONLINE-------------------------------------------*/
-
-#online {
-    background-image: url('../img/online-bg3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.online-inf {
-    margin-top: 15vh;
-    margin-left: 5vw;
-    font-size: 27px;
-    display: block;
-    margin-bottom: 30vh;
-    width: 50vw;
-}
-
-.onl-t-1 {
-    margin-top: 3vh;
-
-}
-
-.onl-t-2 {
-    margin-top: 3vh;
 }
 
 /*-------------------------------------ADDITIONAL-------------------------------------------*/
@@ -356,55 +373,3 @@ body {
     border-radius: 20px;
     flex-basis: 45%;
 }
-
-/*-------------------------------------GALLERY-------------------------------------------*/
-#gallery {
-    background: #1D1D1B;
-    width: 100vw;
-    padding-bottom: .1vh;
-    display: none;
-
-}
-
-#gallery h1 {
-    color: whitesmoke;
-    text-align: center;
-    padding-top: 3vh;
-    border-bottom: 3px double white;
-}
-
-.gallery-wrapper {
-    display: flex;
-    width: 95%;
-    margin: 5vh auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.gallery-img {
-    cursor: pointer;
-
-}
-
-.gal-img {
-    width: 100%;
-    max-width: 400px;
-    max-height: 250px;
-    height: auto;
-    margin: 1vw 1vh;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.gallery-img:hover {
-    transform: scale(1.1);
-}
-
-
-/*-----------------------------------------JS----------------------------------------------*/
-.title-link-hide {
-    display: none;
-}
-
-/*-----------------------------------------VIDEO----------------------------------------------*/
