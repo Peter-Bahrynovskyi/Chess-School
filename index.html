@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navigation"> 
@@ -40,10 +41,10 @@
     </header>
     <section id="about" class="title-link">
     <div class="about_wrapper">
-        <div class="about_img">
+        <div class="about_img" data-aos="fade-right">
             <img src="img/about/about-photo.webp" alt="owner-photo" class="about-photo">
         </div>
-        <div class="about_text">
+        <div class="about_text" data-aos="fade-left">
             <div class="about-inf">
                 <div class="about-img">
                     <img src="./img/about/tick.svg" alt="">
@@ -113,7 +114,7 @@
     </section>
     <section id="online" class="title-link">
         <div class="online-wrapper">
-            <div class="online-inf online-inf-1">
+            <div class="online-inf online-inf-1" data-aos="flip-left">
                 <h2>Навчання Онлайн</h2>
                 <p class="onl-t-1">Оптимальний варіант занять шахами з тренером онлайн. Сьогодні можна жити в тисячах кілометрів один від одного, і мати наставника,
                     який зможе привести учня до найвищих досягнень. В такий спосіб у нас вже навчаються дорослі та діти з України, Німеччини, Словаччини та Канади.</p>
@@ -124,44 +125,58 @@
     <section id="school" class="title-link">
         <div class="school-wrapper">
             <h1>Школа офлайн у Винниках</h1>
-            <div class="school-inf school-inf-1">
+            <div class="school-inf school-inf-1" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">1</div>
                 <div class="school-text">
                     Зручна локація в центрі міста Винники.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-2">
+            <div class="school-inf school-inf-2" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">2</div>
                 <div class="school-text">
                     Не дорога вартість місячного абонементу.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-3">
+            <div class="school-inf school-inf-3" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">3</div>
                 <div class="school-text">
                     2 заняття на тиждень, із тривалістю - 1,5 години.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-4">
+            <div class="school-inf school-inf-4" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">4</div>
                 <div class="school-text">
                     Кількість дітей в одній групі - 12.
                 </div>                        
             </div>
     
-            <div class="school-inf school-inf-5">
+            <div class="school-inf school-inf-5" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">5</div>
                 <div class="school-text">
                     Діти, віком від 5 років.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-6">
+            <div class="school-inf school-inf-6" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">6</div>
                 <div class="school-text">
                     Участь в обласних, всеукраїнських та міжнародних турнірах.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-7">
+            <div class="school-inf school-inf-7" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">7</div>
                 <div class="school-text">
                     Поєднання інтелектуального та фізичного розвитку: Шахи+Корнхол.
@@ -170,7 +185,7 @@
         </div>
     </section>
     <section class="additional-inf">
-        <div class="add-cornhol">
+        <div class="add-cornhol" data-aos="zoom-in-up">
             <div class="add-text">
             З 2021 року в програму навчання включено одну з кращих вуличних ігор – Корнхол. 
             Гра Корнхол – національна гра США. Гра на точність та концентрацію уваги. 
@@ -218,6 +233,9 @@
           })();</script><a href="https://1map.com/map-embed"></a>
         </div>
     </section>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
