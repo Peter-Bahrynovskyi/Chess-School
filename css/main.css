@@ -202,10 +202,12 @@ body {
 
 #online {
 
-    background-image: url('../img/online/online-bg3.webp');
+    background-image: url('../img/online/child_at_computer.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: right;
     font-family: 'Roboto', sans-serif;
+    background-color: #B9DCF9;
 }
 
 .online-wrapper {
@@ -218,8 +220,8 @@ body {
     margin-left: 5vw;
     font-size: 27px;
     display: block;
-    margin-bottom: 30vh;
-    width: 50vw;
+    margin-bottom: 10vh;
+    width: 30vw;
 }
 
 .onl-t-1 {
