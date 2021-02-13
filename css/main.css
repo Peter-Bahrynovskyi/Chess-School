@@ -201,21 +201,22 @@ body {
 /*-------------------------------------ONLINE-------------------------------------------*/
 
 #online {
-
     background-image: url('../img/online/online-bg4.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: right;
     font-family: 'Roboto', sans-serif;
 
 }
 
 .online-wrapper {
+
     display: flex;
     flex-direction: column;
 }
 
 .online-inf {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-left: 5vw;
     font-size: 27px;
     display: block;
@@ -250,7 +251,7 @@ body {
 
 .school-wrapper h1 {
     text-align: center;
-    margin-top: 2vh;
+    padding-top: 2vh;
     color: white;
     border-bottom: 4px double white;
     padding-bottom: 1vh;
