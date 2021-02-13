@@ -201,7 +201,7 @@ body {
 /*-------------------------------------ONLINE-------------------------------------------*/
 
 #online {
-    background-image: url('../img/online/online-bg4.png');
+    background-image: url('../img/online/bg-2.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -217,15 +217,13 @@ body {
 
 .online-inf {
     margin-top: 5vh;
-    margin-left: 5vw;
+    margin-left: 0vw;
     font-size: 27px;
     display: block;
     margin-bottom: 20vh;
     width: 40vw;
-    border: 4px double white;
-    padding: 5vh 5vw;
-    color: black;
-    background: rgba(0, 0, 0, 0.2);
+    padding: 3vh 1vw;
+
 }
 
 .onl-t-1 {
