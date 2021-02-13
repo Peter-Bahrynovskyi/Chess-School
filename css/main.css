@@ -202,12 +202,11 @@ body {
 
 #online {
 
-    background-image: url('../img/online/child_at_computer.jpg');
+    background-image: url('../img/online/online-bg4.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
-    background-color: #B9DCF9;
+
 }
 
 .online-wrapper {
@@ -216,12 +215,16 @@ body {
 }
 
 .online-inf {
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-left: 5vw;
     font-size: 27px;
     display: block;
-    margin-bottom: 10vh;
-    width: 30vw;
+    margin-bottom: 20vh;
+    width: 40vw;
+    border: 4px double white;
+    padding: 5vh 5vw;
+    color: black;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .onl-t-1 {
