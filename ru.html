@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navigation">
@@ -27,7 +29,7 @@
          </div>
     </nav>
  
-    <header id="header" class="title-link">
+    <header id="header" >
         <div class="header-bg">
             <div class="header-1"></div>
             <div class="header-2"></div>
@@ -39,12 +41,12 @@
             </div>
 
     </header>
-    <section id="about" class="title-link">
+    <section id="about" >
     <div class="about_wrapper">
-        <div class="about_img">
+        <div class="about_img" data-aos="fade-right">
             <img src="img/about/about-photo.webp" alt="owner-photo" class="about-photo">
         </div>
-        <div class="about_text">
+        <div class="about_text" data-aos="fade-left">
             <div class="about-inf">
                 <div class="about-img">
                     <img src="./img/about/tick.svg" alt="">
@@ -113,9 +115,8 @@
         </div>
     </div>    
     </section>
-    <section id="online" class="title-link">
-        <div class="online-wrapper">
-        <div class="online-inf online-inf-1">
+    <section id="online" >
+        <div class="online-inf online-inf-1" data-aos="flip-left">
             <h2>Обучение Онлайн</h2>
             <p class="onl-t-1">
                 Оптимальный вариант занятий шахматами с тренером онлайн. Сегодня можно жить в тысячах километров один от другого, и иметь наставника
@@ -125,49 +126,71 @@
                 Возможны как регулярные индивидуальные занятия разной интенсивности, так и разовые консультации.
             </p>
         </div>
-        </div>
+        <div class="online-img"></div>
+</section>
     </section>
-    <section id="school" class="title-link">
+    <section id="school" >
         <div class="school-wrapper">
             <h1>Школа офлайн в Винниках</h1>
-            <div class="school-inf school-inf-1">
+            <div class="school-inf school-inf-1" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">1</div>
                 <div class="school-text">   
                     Удобная локация в центре города Винники.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-2">
+            <div class="school-inf school-inf-2" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">2</div>
                 <div class="school-text">
                     Не дорогая стоимость месячного абонемента.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-3">
+            <div class="school-inf school-inf-3" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">3</div>
                 <div class="school-text">
                     2 занятия в неделю, с продолжительностью - 1,5 часа.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-4">
+            <div class="school-inf school-inf-4" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">4</div>
                 <div class="school-text">  
                     Количество детей в одной группе - 12.
                 </div>                        
             </div>
     
-            <div class="school-inf school-inf-5">
+            <div class="school-inf school-inf-5" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">5</div>
                 <div class="school-text">
                     Дети в возрасте от 5 лет.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-6">
+            <div class="school-inf school-inf-6" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">6</div>
                 <div class="school-text">
                     Участие в областных, всеукраинских и международных турнирах.
                 </div>                        
             </div>
-            <div class="school-inf school-inf-7">
+            <div class="school-inf school-inf-7" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine">
                 <div class="school-num">7</div>
                 <div class="school-text">            
                     Сочетание интеллектуального и физического развития: Шахматы + Корнхол.
@@ -176,7 +199,7 @@
         </div>
     </section>
     <section class="additional-inf">
-        <div class="add-cornhol">
+        <div class="add-cornhol" data-aos="zoom-in-up">
             <div class="add-text">
                 С 2021 года в программу учебы включена одна из лучших уличных игр - Корнхол.
                 Игра Корнхол - национальная игра США. Игра на точность и концентрацию внимания.
@@ -186,7 +209,7 @@
         </div>
     </section>
   
-    <section id="contacts" class="title-link">
+    <section id="contacts" >
       <div class="contacts-inf">
         <div class="contacts-address">
             <p>Наши контакты:</p>
@@ -224,6 +247,9 @@
           })();</script><a href="https://1map.com/map-embed"></a>
         </div>
     </section>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

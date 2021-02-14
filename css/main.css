@@ -1,21 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
-
-
 }
 
 body {
     max-width: 100%;
     overflow-x: hidden;
-
 }
 
 /*---------------------NAVIGATION------------------------*/
@@ -26,7 +19,6 @@ body {
     background: white;
     font-family: 'Comfortaa', cursive;
 }
-
 
 .nav-menu {
     display: flex;
@@ -201,28 +193,31 @@ body {
 /*-------------------------------------ONLINE-------------------------------------------*/
 
 #online {
-    background-image: url('../img/online/bg-2.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
     font-family: 'Roboto', sans-serif;
-
-}
-
-.online-wrapper {
-
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .online-inf {
-    margin-top: 5vh;
-    margin-left: 0vw;
     font-size: 27px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    padding-right: 5vw;
     margin-bottom: 20vh;
-    width: 40vw;
-    padding: 3vh 1vw;
+    width: 50vw;
+}
+
+.online-img {
+    width: 50vw;
+    background-image: url('../img/online/online-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-position: center center;
 
 }
 
