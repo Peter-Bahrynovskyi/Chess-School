@@ -169,7 +169,7 @@
 
 
 @media (max-width:670px) {
-    .modal .modal_content {
+    .nav-modal .modal_content-nav {
         width: 80vw;
     }
 }
