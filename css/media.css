@@ -167,6 +167,13 @@
     }
 }
 
+
+@media (max-width:670px) {
+    .modal .modal_content {
+        width: 80vw;
+    }
+}
+
 @media (max-width:625px) {
     .header-text__name {
         font-size: 35px;

@@ -26,7 +26,19 @@
            <a href="skype:taras.gys?chat"><img src="img/nav/logo-icon-skype.svg" alt=""></a>
             <a href="https://www.instagram.com/ches.sschool.blackandwhite/?igshid=iqx6zf0p6uxv" target="blank"><img src="img/nav/logo-icon-instagram.svg" alt=""></a>
         </div>
-        <div class="first-lesson-nav"><span>Перший пробний урок</span><div class="first-lesson-free">БЕЗКОШТОВНО</div><button class="btn-first-lesson">Записатись</button></div>
+        <div class="first-lesson-nav"><span>Перший пробний урок</span><div class="first-lesson-free">БЕЗКОШТОВНО</div>
+        <button class="btn-first-lesson" id="btn_modal_window">Записатись</button>
+        <div id="my_modal" class="modal">
+            <div class="modal_content">
+                <span class="close_modal_window">&#10008;</span>
+                <p class="modal-text">Звяжіться з нами у зручному для вас форматі:</p>
+                <div class="modal-elements">
+                <div><a href="viber://add?number=0938066176"><img src="./img/modal/viber.png" alt=""></a></div>
+                <div><a href="whatsapp://send?phone=+380938066176"><img src="./img/modal/whatsapp.png" alt=""></a></div>
+                <div><a href="#"><img src="./img/modal/instagram.png" alt=""></a></div>
+            </div>
+        </div>
+        </div>
 
     </nav>
  
@@ -42,7 +54,20 @@
             </div>
     </header>
     <section id="about" >
-        <div class="first-lesson-about"><span>Перший пробний урок</span><div class="first-lesson-free">БЕЗКОШТОВНО</div><button class="btn-first-lesson">Записатись</button></div>
+        <div class="first-lesson-about"><span>Перший пробний урок</span><div class="first-lesson-free">БЕЗКОШТОВНО</div>
+            <button class="btn-first-lesson" id="btn_modal_window">Записатись</button>
+            <div id="my_modal" class="modal">
+                <div class="modal_content">
+                    <span class="close_modal_window">&#10008;</span>
+                    <p class="modal-text">Звяжіться з нами у зручному для вас форматі:</p>
+                    <div class="modal-elements">
+                    <div><a href="#"><img src="./img/modal/viber.png" alt=""></a></div>
+                    <div><a href="#"><img src="./img/modal/whatsapp.png" alt=""></a></div>
+                    <div><a href="#"><img src="./img/modal/instagram.png" alt=""></a></div>
+                </div>
+            </div>
+          </div>
+    </div>
     <div class="about_wrapper">
         <div class="about_img" data-aos="fade-right">
             <img src="img/about/about-photo.webp" alt="owner-photo" class="about-photo">
@@ -246,5 +271,6 @@
     <script>
         AOS.init();
       </script>
+      <script src="modal.js"></script>
 </body>
 </html>
