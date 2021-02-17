@@ -129,7 +129,6 @@ body {
 
 .header-text__school {
     font-family: 'Libre Baskerville', serif;
-    font-style: italic;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -140,7 +139,7 @@ body {
     font-weight: 900;
     font-size: 100px;
     letter-spacing: .4em;
-    color:
+
 
 }
 
@@ -162,7 +161,6 @@ body {
     margin-left: 1vw;
 }
 
-
 .first-lesson-about {
     display: flex;
     flex-direction: row;
@@ -178,7 +176,8 @@ body {
     border: solid 2px #212121;
     background-color: transparent;
     border-radius: 50px;
-    padding: 2vw 1vh;
+    padding: 1vw 1.5vh;
+    font-size: 25px;
     background-color: white;
     color: #212121;
     transition: .2s ease-in-out;
