@@ -16,11 +16,20 @@
 
 @media (max-width:1200px) {
     .navigation {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
         align-items: center;
     }
 
     .lang {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
 
     }
@@ -37,6 +46,9 @@
     }
 
     .about_wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
         margin-top: 0;
         margin-bottom: 0;
@@ -47,6 +59,7 @@
     .about_img {
         margin-top: 3vh;
         padding-bottom: 0;
+        -ms-flex-item-align: center;
         align-self: center;
     }
 
@@ -59,10 +72,19 @@
     }
 
     .first-lesson-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
-        align-items: stretch
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     .first-lesson-about {
@@ -90,9 +112,18 @@
     .online-inf {
 
         font-size: 27px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         padding-top: 10vh;
         padding-left: 5vw;
@@ -118,6 +149,9 @@
 
 @media (max-width:900px) {
     .nav-menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -128,6 +162,7 @@
 
     .header-2,
     .header-3 {
+        -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     }
 
@@ -153,6 +188,9 @@
 
 
     .school-wrapper {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
         align-items: center;
         padding-bottom: 5vh;
     }
@@ -164,6 +202,9 @@
     }
 
     #contacts {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -241,3 +282,11 @@
         font-size: 21px;
     }
 }
+
+
+/*
+Created by Peter Bahrynovskyi
+on February 2021
+In case if you would like to discuss anything you may write me on gmail:
+----------   pbahrynovskyi@gmail.com   ----------
+*/
