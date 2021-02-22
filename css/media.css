@@ -92,8 +92,8 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        font-size: 22px;
-        justify-self: center;
+        font-size: 20px;
+
     }
 
     .first-lesson-about {
@@ -102,11 +102,13 @@
 
     .first-lesson-free {
         margin-top: 5vh;
+
         font-weight: bold;
     }
 
     .btn-first-lesson {
         margin-top: 5vh;
+
         margin-bottom: 6vh;
     }
 
