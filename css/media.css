@@ -16,6 +16,11 @@
 
 @media (max-width:1200px) {
     .navigation {
+        display: none;
+    }
+
+    .navigation-mobile {
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -24,7 +29,9 @@
         -ms-flex-align: center;
         -ms-grid-row-align: center;
         align-items: center;
+        min-height: 100vh;
     }
+
 
     .lang {
         -webkit-box-orient: horizontal;
@@ -48,8 +55,8 @@
     .about_wrapper {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
+        -ms-flex-direction: column;
+        flex-direction: column;
         margin-top: 0;
         margin-bottom: 0;
         padding-top: 0;
@@ -85,6 +92,8 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        font-size: 22px;
+        justify-self: center;
     }
 
     .first-lesson-about {
@@ -148,6 +157,12 @@
 }
 
 @media (max-width:900px) {
+
+    #header {
+        min-height: 100vh;
+        max-height: 100vh;
+    }
+
     .nav-menu {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -164,7 +179,11 @@
     .header-3 {
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+        min-height: 100vh;
+        max-height: 100vh;
     }
+
+
 
     .header-2 {
         background-image: url('../img/header/header-2.webp');
@@ -213,7 +232,7 @@
     }
 
     .header-text {
-        bottom: 15vh;
+        bottom: 20vh;
     }
 }
 
@@ -255,7 +274,9 @@
 }
 
 @media (max-width:480px) {
-    .navigation {
+
+
+    .navigation-mobile {
         min-height: 100vh;
     }
 
